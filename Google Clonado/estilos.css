@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid white;
+}
+
+nav ul li{
+    float: left;
+    margin: 10px;
+    line-height: 50px;
+    display: flex;
+    justify-self: right;
+}
+
+content {
+    display: flex;
+    flex-direction: column;
+}
+
